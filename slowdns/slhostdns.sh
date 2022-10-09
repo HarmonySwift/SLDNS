@@ -13,7 +13,7 @@ DOMAIN=harmonyswift.com
 SUB_DOMAIN=hf-${sub}.harmonyswift.com
 NS_DOMAIN=slowdns-${subsl}.harmonyswift.com
 CF_ID=auperwing@gmail.com
-e79431dc85570f38811c05f99bf44aae02501
+CF_KEY=e79431dc85570f38811c05f99bf44aae02501
 echo "IP=""$SUB_DOMAIN" >> /var/lib/crot/subdomain.conf
 set -euo pipefail
 IP=$(wget -qO- icanhazip.com);
