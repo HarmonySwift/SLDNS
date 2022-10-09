@@ -9,9 +9,9 @@ rm nsdomain
 
 sub=$(</dev/urandom tr -dc a-z0-9 | head -c5)
 subsl=$(</dev/urandom tr -dc a-x0-9 | head -c5)
-DOMAIN=harmonyswift.com
-SUB_DOMAIN=hf-${sub}.harmonyswift.com
-NS_DOMAIN=slowdns-${subsl}.harmonyswift.com
+DOMAIN=arzjoanna.com
+SUB_DOMAIN=hf-${sub}.arzjoanna.com
+NS_DOMAIN=slowdns-${subsl}.arzjoanna.com
 CF_ID=auperwing@gmail.com
 CF_KEY=e79431dc85570f38811c05f99bf44aae02501
 echo "IP=""$SUB_DOMAIN" >> /var/lib/crot/subdomain.conf
